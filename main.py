@@ -37,5 +37,5 @@ for post in top_posts:
         summary = summarize(article)
         
         if "This is not an article." not in summary:
-            #post.reply("Here is a summary of the article: \n\n" + summary)
+            post.reply("Here is a summary of the article: \n\n" + summary)
             print(f"Posted summary for post: {post.title}")
